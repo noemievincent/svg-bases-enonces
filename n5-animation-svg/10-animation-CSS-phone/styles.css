@@ -6,3 +6,28 @@
 - l'animation doit démarrer avec la taille d'origine, diminuer à la moitié de sa taille et revenir à sa taille de départ
 
 */
+
+body {
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+}
+
+svg {
+    width: 30%;
+}
+
+@keyframes pulse {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(0.5);
+    }
+}
+
+
+svg:hover circle {
+    animation: pulse 1s infinite;
+    transform-origin: center;
+}

@@ -28,4 +28,13 @@
 - le texte : augmenter l'espace inter-lettres à 2px
 */
 
+path {
+	fill: none;
+	stroke: yellowgreen;
+	stroke-linecap: round;
+	stroke-width: 2px;
+}
 
+text {
+	letter-spacing: 2px;
+}

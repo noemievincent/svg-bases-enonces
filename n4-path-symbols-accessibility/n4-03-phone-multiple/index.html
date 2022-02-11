@@ -11,6 +11,14 @@
 <body>
 <h1>Un smartphone utilisé plusieurs fois</h1>
 <!-- Reprenez ici le code SVG de l’exercice n2-01-phone, nous allons le modifier en utilisant la technique des symboles et des occurrences pour réutiliser plusieurs fois l’icône du téléphone dans la page -->
+    <svg class=".defined-icon"
+         xmlns="http://www.w3.org/2000/svg"
+         version="1.1">
+        <symbol id="phone">
+            <rect height="100" width="70" x="5" y="5" rx="5" ry="5"/>
+            <circle r="4" cx="40" cy="105"/>
+        </symbol>
+    </svg>
 <!-- 
 	1. Rendez le SVG responsive et veillez à avoir toutes les propriétés de style dans le CSS
 	2. Transformez-le en symbole
@@ -18,5 +26,17 @@
 		- une pour l’afficher en petit ;
 		- une pour l’afficher en grand.
  -->
+    <svg xmlns="http://www.w3.org/2000/svg"
+         class="displayed-icon big"
+         viewBox="0 0 80 110"
+         xmlns:xlink="http://www.w3.org/1999/xlink">
+        <use xlink:href="#phone"></use>
+    </svg>
+    <svg xmlns="http://www.w3.org/2000/svg"
+         class="displayed-icon small"
+         viewBox="0 0 80 110"
+         xmlns:xlink="http://www.w3.org/1999/xlink">
+        <use xlink:href="#phone"></use>
+    </svg>
 </body>
 </html>

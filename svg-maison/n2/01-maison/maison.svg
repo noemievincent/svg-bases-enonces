@@ -3,6 +3,20 @@
 créer un svg de 340 px de haut et 340 px de large
 avec un fond #F6F7F7 qui va représenter une maison
 -->
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 340 340" style="background-color:#F6F7F7;">
+    <g class="chimney">
+        <rect x="98" y="127" height="21" width="14" fill="#FBF6A7"></rect>
+        <rect x="95" y="123" height="4" width="20" fill="#E04E27"></rect>
+    </g>
+    <g class="house">
+        <rect x="90" y="198" height="84" width="162" fill="#FBF6A7"></rect>
+        <rect x="80" y="148" height="56" width="184" fill="#E04E27"></rect>
+    </g>
+    <g class="door">
+        <rect x="153" y="222" height="60" width="36" fill="#E04E27"></rect>
+        <rect x="183" y="252" height="8" width="2" fill="#FBF6A7"></rect>
+    </g>
+</svg>
 <!--
 ce svg contient
 - une cheminée, formée par deux rectangles

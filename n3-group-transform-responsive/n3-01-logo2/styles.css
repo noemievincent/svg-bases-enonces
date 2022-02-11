@@ -10,7 +10,41 @@
     font-style: normal;
 }
 /* reprenez ici votre feuille de style de l'exercie n2-03-logo, nous allons la compéter */
+
+circle {
+    fill : none;
+    stroke : #008B6F;
+    stroke-width : 7px;
+}
+
+line {
+    stroke : #00392D;
+    stroke-width : 5px;
+    stroke-linecap : round;
+}
+
+polygon {
+    stroke: #00392D;
+    stroke-width: 2px;
+    stroke-linecap: round;
+    fill: #008B6F;
+}
+
+text {
+    font-family: 'luckiest_guyregular', serif;
+    font-size : 60px;
+    stroke : #00392D;
+    stroke-width : 3px;
+    fill : #F6F7F3;
+    text-anchor: middle;
+}
+
 /*
 Stylez les petits triangles :
 - ils doivent tous avoir un contour de 1px d'épaisseur et un remplissage de couleur #59BFC6
 */
+
+.triangle_group polygon {
+    fill: #59BFC6;
+    stroke-width: 1px;
+}

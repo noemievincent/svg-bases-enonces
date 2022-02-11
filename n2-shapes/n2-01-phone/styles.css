@@ -5,3 +5,30 @@
 	- à la moitié du temps, il a la moitité de sa taille ;
 	- à la fin, il revient à sa taille normale
 */
+
+svg {
+    transform-origin: 55px 40px;
+    animation: turn 3s ease-in-out;
+}
+
+svg:hover {
+    animation: pulse 1s infinite;
+}
+
+@keyframes turn {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes pulse {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(0.5);
+    }
+}

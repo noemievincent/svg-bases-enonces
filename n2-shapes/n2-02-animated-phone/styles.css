@@ -5,3 +5,18 @@
 	- à la fin, il revient à sa taille normale
 Attention, le bouton doit rester centré !
 */
+
+svg:hover circle{
+    animation: start 2s infinite;
+    transform-origin: center;
+
+}
+
+@keyframes start {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(0.5);
+    }
+}
