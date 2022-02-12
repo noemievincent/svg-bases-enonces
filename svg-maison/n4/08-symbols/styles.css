@@ -2,16 +2,18 @@
   font-family: 'Luckiest Guy';
   src: url('luckiestguy-webfont.eot');
   src: url('luckiestguy-webfont.eot?#iefix') format('embedded-opentype'),
-       url('luckiestguy-webfont.woff2') format('woff2'),
-       url('luckiestguy-webfont.woff') format('woff'),
-       url('luckiestguy-webfont.ttf') format('truetype'),
-       url('luckiestguy-webfont.svg#luckiest_guyregular') format('svg');
+  url('luckiestguy-webfont.woff2') format('woff2'),
+  url('luckiestguy-webfont.woff') format('woff'),
+  url('luckiestguy-webfont.ttf') format('truetype'),
+  url('luckiestguy-webfont.svg#luckiest_guyregular') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
 svg {
   background-color:#F6F7F7;
+  /*width: 30%;*/
+  /*height: auto;*/
 }
 .background-circle {
   fill: #068C70;
@@ -58,6 +60,10 @@ text {
   fill: #3E9FD8
 }
 .windows line{
+  stroke: #E04E27;
+  stroke-width: 4px;
+}
+.windows {
   stroke: #E04E27;
   stroke-width: 4px;
 }

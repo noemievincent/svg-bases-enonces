@@ -61,3 +61,12 @@ text {
   stroke: #E04E27;
   stroke-width: 4px;
 }
+
+.windows {
+  stroke: #E04E27;
+  stroke-width: 4px;
+}
+
+.flower-bloom {
+  transform-origin: 228px 267px;
+}
